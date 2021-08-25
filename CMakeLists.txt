@@ -22,6 +22,7 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "action/ExecuteScript.action"
   "srv/DashboardCommand.srv"
+  "msg/Measured.msg"
 )
 
 ament_package()
