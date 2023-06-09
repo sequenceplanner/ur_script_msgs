@@ -5,4 +5,4 @@ string script
 bool ok
 ---
 # Feedback
-int32 program_state
+string feedback
