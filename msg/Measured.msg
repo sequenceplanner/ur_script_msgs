@@ -2,6 +2,7 @@
 int32 robot_state
 # Program state
 int32 program_state
+float64[] forces
 # Digital inputs
 bool in0
 bool in1
